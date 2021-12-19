@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run stapp/app.py
+web: sh setup.sh && streamlit run app.py
