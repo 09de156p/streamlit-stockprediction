@@ -10,7 +10,7 @@ from cryptocmd import CmcScraper
 START = '2015-01-01'
 TODAY = date.today().strftime('%Y-%m-%d')
 
-st.title('株価、仮想通貨価格予測アプリ')
+st.title('株価、仮想通貨価格予測アプリ(develop)')
 
 selected_stocks = st.sidebar.text_input("証券コード、ティッカーシンボル(AAPL、GOOG等)を入力して下さい。※初期値は日経225", "^N225")
 
