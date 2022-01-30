@@ -30,7 +30,7 @@ data_load_state = st.text('データを読み込んでいます...')
 data = load_data(selected_stocks)
 data_load_state.text('データを読み込みました!')
 
-st.subheader('株価（円換算）')
+st.subheader('株価')
 st.write(data.set_index('Date').tail())
 
 def plot_raw_data():
